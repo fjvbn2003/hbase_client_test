@@ -1,0 +1,13 @@
+<configuration>
+
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>
+            apache-hbase001-test-cdh2-jp2v-dev.lineinfra-dev.com,apache-hbase002-test-cdh2-jp2v-dev.lineinfra-dev.com,apache-hbase003-test-cdh2-jp2v-dev.lineinfra-dev.com
+        </value>
+    </property>
+    <property>
+        <name>hbase.zookeeper.property.clientPort</name>
+        <value>2181</value>
+    </property>
+</configuration>
